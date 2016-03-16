@@ -5,7 +5,7 @@ set showmatch
 set matchtime=1
 syntax on
 set tabstop=4
-set smartindent
+set autoindent
 set shiftwidth=4
 highlight Comment ctermfg=DarkCyan
 
