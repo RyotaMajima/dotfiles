@@ -7,10 +7,13 @@ syntax on
 set tabstop=4
 set smartindent
 set shiftwidth=4
+highlight Comment ctermfg=DarkCyan
 
 "####cursor関連####"
 set virtualedit=block
 set whichwrap=b,s,[,],<,>
 set backspace=indent,eol,start
 
-highlight Comment ctermfg=DarkCyan
+"####検索設定####"
+set ignorecase
+set wrapscan
