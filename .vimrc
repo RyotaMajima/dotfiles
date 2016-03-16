@@ -1,3 +1,4 @@
+"####"表示関連####"
 set number
 set title
 set showmatch
