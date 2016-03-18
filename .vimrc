@@ -21,6 +21,3 @@ set wrapscan
 
 "####括弧補完####"
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
-inoremap [ []<Left>
-inoremap ( ()<Left>
-inoremap " ""<Left>
