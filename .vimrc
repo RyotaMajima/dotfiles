@@ -1,4 +1,3 @@
-"####表示関連####"
 set number
 set title
 set showmatch
@@ -21,3 +20,7 @@ set wrapscan
 
 "####括弧補完####"
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
+
+"####key mapping####"
+inoremap <silent> jj <Esc>
+inoremap <silent> kk <Esc>
